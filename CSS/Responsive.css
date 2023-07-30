@@ -1,0 +1,31 @@
+@media (max-width:1030px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home .home-banner-text{
+        transform:translate(-80%, -50%);
+    }
+}
+@media (max-width:425px){
+    .home .home-banner .home-banner-text{
+        transform: translate(-10%,-40%);
+        width: 100%;
+    }
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 470px;
+    }
+  
+    .home .home-banner .home-banner-text  h1 {
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text  h2{
+        font-size: 1.2rem;
+    }
+   
+}
+
